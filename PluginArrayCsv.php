@@ -7,7 +7,7 @@ class PluginArrayCsv{
         /**
          * Replace '"'.
          */
-        $str = str_replace('"', '""', $value2);
+        $str = wfPhpfunc::str_replace('"', '""', $value2);
         /**
          * Set ...
          */
